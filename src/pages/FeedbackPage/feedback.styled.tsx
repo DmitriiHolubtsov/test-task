@@ -153,7 +153,7 @@ export const TextContainer = styled(Box)`
   }
   ${({ theme }) => theme.breakpoints.down('md')} {
     padding: 50px 16px 30px 16px;
-    height: auto;
+    height: 500px;
   }
 `;
 

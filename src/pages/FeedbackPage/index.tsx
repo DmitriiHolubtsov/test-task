@@ -42,7 +42,7 @@ export default function Home(): ReactElement {
             <ControlPrev
               onClick={clickHandler}
             >
-              <ArrowLeft className="w-9 h-9 text-white" />
+              <ArrowLeft />
             </ControlPrev>
           );
         }}
@@ -51,7 +51,7 @@ export default function Home(): ReactElement {
             <ControlNext 
               onClick={clickHandler}
             >
-              <ArrowRight className="w-9 h-9 text-white" />
+              <ArrowRight />
             </ControlNext>
           );
         }}
